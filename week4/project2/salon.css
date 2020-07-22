@@ -1,10 +1,11 @@
-<style>
+
     *{
         padding: 0px;
         margin: 0px;
     }
     body{
-        background: #000099
+        background: #000099;
+        font-family: 'Red Rose', cursive;
     }
     .head{
         width: 100%;
@@ -27,20 +28,24 @@
         width: 100%;
         
     }
-    .nav li{
-        list-style-type: none;
-        display: inline-block;
-        padding: 10px 40px;
-        text-align: center;
-        border-left: 1px solid white;
-        color: white;
-        font-size: 18px;
+    .nav {
+        position:fixed;
     }
     .box{
-        width: 60%;
-        margin: 150px auto;
-        background: white;
+       color:white;
         padding: 20px;
         font-size: 25px;
     }
-</style>
+a {
+    color:white;
+}
+table, th, td, tr {
+    border: 3px solid black;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
