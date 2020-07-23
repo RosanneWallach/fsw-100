@@ -49,3 +49,7 @@ table, th, td, tr {
     color: white;
     font-size: 30px;
   }
+  @media only screen and (max-width: 600px){
+    .header{
+       grid-column: 1/-1;
+    }
